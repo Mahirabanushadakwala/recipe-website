@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Sharing Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>🍳 Recipe Sharing Hub</h1>
+        <p>Discover and share amazing recipes</p>
+    </header>
+
+    <!-- Search and Filter Section -->
+    <section class="search-section">
+        <input type="text" id="searchInput" placeholder="Search recipes or ingredients...">
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-category="all">All</button>
+            <button class="filter-btn" data-category="breakfast">Breakfast</button>
+            <button class="filter-btn" data-category="lunch">Lunch</button>
+            <button class="filter-btn" data-category="dinner">Dinner</button>
+            <button class="filter-btn" data-category="dessert">Dessert</button>
+        </div>
+    </section>
+
+    <!-- Recipe Grid -->
+    <section class="recipe-grid" id="recipeGrid">
+        <!-- Recipes will be added here by JavaScript -->
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
