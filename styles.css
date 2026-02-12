@@ -7,17 +7,18 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
+    background-color: #ffffff;
+    color: #1a1a1a;
 }
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0a2463 0%, #1e3a8a 100%);
     color: white;
     text-align: center;
     padding: 3rem 1rem;
     margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 header h1 {
@@ -43,7 +44,7 @@ header h1 {
 
 #searchInput:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #1e3a8a;
 }
 
 /* Filter Buttons */
@@ -55,9 +56,9 @@ header h1 {
 
 .filter-btn {
     padding: 0.5rem 1.5rem;
-    border: 2px solid #667eea;
+    border: 2px solid #1e3a8a;
     background-color: white;
-    color: #667eea;
+    color: #1e3a8a;
     border-radius: 20px;
     cursor: pointer;
     font-size: 1rem;
@@ -65,11 +66,11 @@ header h1 {
 }
 
 .filter-btn:hover {
-    background-color: #f0f0f0;
+    background-color: #e0e7ff;
 }
 
 .filter-btn.active {
-    background-color: #667eea;
+    background-color: #1e3a8a;
     color: white;
 }
 
@@ -117,7 +118,7 @@ header h1 {
 
 .recipe-category {
     display: inline-block;
-    background-color: #667eea;
+    background-color: #1e3a8a;
     color: white;
     padding: 0.3rem 0.8rem;
     border-radius: 15px;
