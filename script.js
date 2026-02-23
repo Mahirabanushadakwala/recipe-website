@@ -1,511 +1,511 @@
-// 50 Vegetarian Recipes
+// 50 Indian Vegetarian Recipes
 const recipes = [
     // BREAKFAST RECIPES (12)
     {
         id: 1,
-        title: "Fluffy Pancakes",
+        title: "Masala Dosa",
         category: "breakfast",
-        description: "Light and fluffy pancakes perfect for a weekend breakfast with maple syrup.",
-        ingredients: ["flour", "eggs", "milk", "butter", "sugar", "baking powder"],
-        time: "20 mins",
+        description: "Crispy rice crepe filled with spiced potato filling, served with chutney and sambar.",
+        ingredients: ["rice", "urad dal", "potatoes", "onions", "curry leaves", "mustard seeds"],
+        time: "30 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=400"
+        image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=600&h=400&fit=crop"
     },
     {
         id: 2,
-        title: "Avocado Toast",
+        title: "Poha",
         category: "breakfast",
-        description: "Simple and healthy breakfast with creamy avocado on toasted bread.",
-        ingredients: ["bread", "avocado", "lemon", "salt", "pepper", "olive oil"],
-        time: "10 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1541519227354-08fa5d50c44d?w=400"
+        description: "Light and fluffy flattened rice with peanuts, curry leaves, and turmeric.",
+        ingredients: ["poha", "peanuts", "curry leaves", "turmeric", "mustard seeds", "green chilies"],
+        time: "15 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&h=400&fit=crop"
     },
     {
         id: 3,
-        title: "Greek Yogurt Parfait",
+        title: "Idli Sambar",
         category: "breakfast",
-        description: "Layered yogurt with granola, fresh berries, and honey.",
-        ingredients: ["greek yogurt", "granola", "strawberries", "blueberries", "honey"],
-        time: "5 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+        description: "Soft steamed rice cakes served with lentil-based vegetable stew.",
+        ingredients: ["rice", "urad dal", "toor dal", "vegetables", "sambar powder", "tamarind"],
+        time: "40 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600&h=400&fit=crop"
     },
     {
         id: 4,
-        title: "Veggie Omelette",
+        title: "Aloo Paratha",
         category: "breakfast",
-        description: "Fluffy eggs with bell peppers, onions, tomatoes, and cheese.",
-        ingredients: ["eggs", "bell peppers", "onions", "tomatoes", "cheese", "milk"],
-        time: "15 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=400"
+        description: "Whole wheat flatbread stuffed with spiced mashed potatoes.",
+        ingredients: ["wheat flour", "potatoes", "green chilies", "coriander", "cumin", "ghee"],
+        time: "35 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=400&fit=crop"
     },
     {
         id: 5,
-        title: "Banana Smoothie Bowl",
+        title: "Upma",
         category: "breakfast",
-        description: "Thick smoothie topped with fruits, nuts, and seeds.",
-        ingredients: ["banana", "yogurt", "berries", "granola", "chia seeds", "honey"],
-        time: "10 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1590301157890-4810ed352733?w=400"
+        description: "Savory semolina porridge with vegetables and South Indian spices.",
+        ingredients: ["semolina", "onions", "curry leaves", "mustard seeds", "vegetables", "cashews"],
+        time: "20 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=600&h=400&fit=crop"
     },
     {
         id: 6,
-        title: "French Toast",
+        title: "Medu Vada",
         category: "breakfast",
-        description: "Cinnamon-spiced French toast with powdered sugar and berries.",
-        ingredients: ["bread", "eggs", "milk", "cinnamon", "vanilla", "butter"],
-        time: "15 mins",
+        description: "Crispy fried lentil donuts served with coconut chutney.",
+        ingredients: ["urad dal", "curry leaves", "ginger", "green chilies", "black pepper"],
+        time: "30 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1484723091739-30a097e8f929?w=400"
+        image: "https://images.unsplash.com/photo-1626776876729-bab4ddaf2e46?w=600&h=400&fit=crop"
     },
     {
         id: 7,
-        title: "Oatmeal with Fruits",
+        title: "Sabudana Khichdi",
         category: "breakfast",
-        description: "Creamy oatmeal topped with fresh fruits and nuts.",
-        ingredients: ["oats", "milk", "banana", "berries", "almonds", "honey"],
-        time: "12 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1517673400267-0251440c45dc?w=400"
+        description: "Pearl tapioca cooked with peanuts, potatoes, and mild spices.",
+        ingredients: ["sabudana", "peanuts", "potatoes", "cumin seeds", "green chilies", "curry leaves"],
+        time: "25 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1645696643280-144fe266ef2f?w=600&h=400&fit=crop"
     },
     {
         id: 8,
-        title: "Breakfast Burrito",
+        title: "Puri Bhaji",
         category: "breakfast",
-        description: "Tortilla filled with scrambled eggs, beans, cheese, and salsa.",
-        ingredients: ["tortilla", "eggs", "black beans", "cheese", "salsa", "avocado"],
-        time: "20 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400"
+        description: "Deep-fried puffed bread served with spiced potato curry.",
+        ingredients: ["wheat flour", "potatoes", "onions", "tomatoes", "spices", "oil"],
+        time: "40 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=400&fit=crop"
     },
     {
         id: 9,
-        title: "Blueberry Muffins",
+        title: "Rava Idli",
         category: "breakfast",
-        description: "Moist and fluffy muffins bursting with fresh blueberries.",
-        ingredients: ["flour", "blueberries", "sugar", "eggs", "milk", "butter"],
-        time: "35 mins",
-        servings: 12,
-        image: "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=400"
+        description: "Quick semolina steamed cakes with cashews and curry leaves.",
+        ingredients: ["semolina", "yogurt", "cashews", "curry leaves", "mustard seeds", "ginger"],
+        time: "25 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?w=600&h=400&fit=crop"
     },
     {
         id: 10,
-        title: "Veggie Breakfast Wrap",
+        title: "Methi Thepla",
         category: "breakfast",
-        description: "Whole wheat wrap with scrambled eggs and sautéed vegetables.",
-        ingredients: ["tortilla", "eggs", "spinach", "mushrooms", "cheese", "tomatoes"],
-        time: "15 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1563051291-7e8f8a5c0b9c?w=400"
+        description: "Gujarati flatbread with fenugreek leaves and whole wheat flour.",
+        ingredients: ["wheat flour", "fenugreek leaves", "yogurt", "turmeric", "chili powder", "oil"],
+        time: "30 mins",
+        servings: 6,
+        image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&h=400&fit=crop"
     },
     {
         id: 11,
-        title: "Chia Pudding",
+        title: "Kanda Poha",
         category: "breakfast",
-        description: "Overnight chia pudding with coconut milk and mango.",
-        ingredients: ["chia seeds", "coconut milk", "mango", "honey", "vanilla"],
-        time: "5 mins + overnight",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1623428187969-5da2dcea5ebf?w=400"
+        description: "Maharashtrian style flattened rice with onions and spices.",
+        ingredients: ["poha", "onions", "peanuts", "curry leaves", "turmeric", "lemon"],
+        time: "15 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1606491956689-2ea866880c84?w=600&h=400&fit=crop"
     },
     {
         id: 12,
-        title: "Veggie Frittata",
+        title: "Pesarattu",
         category: "breakfast",
-        description: "Baked egg dish with vegetables and cheese, perfect for brunch.",
-        ingredients: ["eggs", "zucchini", "tomatoes", "cheese", "onions", "herbs"],
+        description: "Andhra style green gram crepe with ginger and green chilies.",
+        ingredients: ["moong dal", "rice", "ginger", "green chilies", "cumin seeds", "onions"],
         time: "30 mins",
-        servings: 6,
-        image: "https://images.unsplash.com/photo-1608039829572-78524f79c4c7?w=400"
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1630383249896-424e482df921?w=600&h=400&fit=crop"
     },
 
-    // LUNCH RECIPES (12)
+    // LUNCH RECIPES (13)
     {
         id: 13,
-        title: "Caesar Salad",
+        title: "Chole Bhature",
         category: "lunch",
-        description: "Classic Caesar salad with romaine lettuce, parmesan, and croutons.",
-        ingredients: ["romaine lettuce", "parmesan", "croutons", "caesar dressing"],
-        time: "15 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1546793665-c74683f339c1?w=400"
+        description: "Spicy chickpea curry served with deep-fried fluffy bread.",
+        ingredients: ["chickpeas", "onions", "tomatoes", "flour", "spices", "yogurt"],
+        time: "45 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1626074353765-517a681e40be?w=600&h=400&fit=crop"
     },
     {
         id: 14,
-        title: "Caprese Sandwich",
+        title: "Paneer Butter Masala",
         category: "lunch",
-        description: "Fresh mozzarella, tomatoes, and basil with balsamic glaze.",
-        ingredients: ["bread", "mozzarella", "tomatoes", "basil", "balsamic vinegar"],
-        time: "10 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=400"
+        description: "Rich and creamy tomato-based curry with paneer cubes.",
+        ingredients: ["paneer", "tomatoes", "cream", "butter", "kasuri methi", "spices"],
+        time: "30 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 15,
-        title: "Vegetable Stir-Fry",
+        title: "Dal Tadka",
         category: "lunch",
-        description: "Quick and healthy stir-fried vegetables with soy sauce.",
-        ingredients: ["broccoli", "bell peppers", "carrots", "soy sauce", "garlic", "ginger"],
-        time: "15 mins",
-        servings: 3,
-        image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?w=400"
+        description: "Yellow lentils tempered with ghee, cumin, and garlic.",
+        ingredients: ["toor dal", "ghee", "cumin", "garlic", "tomatoes", "green chilies"],
+        time: "35 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=600&h=400&fit=crop"
     },
     {
         id: 16,
-        title: "Falafel Wrap",
+        title: "Rajma Chawal",
         category: "lunch",
-        description: "Crispy falafel with tahini sauce, lettuce, and tomatoes.",
-        ingredients: ["chickpeas", "pita bread", "tahini", "lettuce", "tomatoes", "cucumber"],
-        time: "25 mins",
+        description: "Red kidney beans curry served with steamed basmati rice.",
+        ingredients: ["rajma", "onions", "tomatoes", "rice", "ginger-garlic", "spices"],
+        time: "60 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?w=400"
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 17,
-        title: "Quinoa Buddha Bowl",
+        title: "Palak Paneer",
         category: "lunch",
-        description: "Nutritious bowl with quinoa, roasted vegetables, and tahini dressing.",
-        ingredients: ["quinoa", "chickpeas", "sweet potato", "kale", "tahini", "lemon"],
+        description: "Cottage cheese cubes in smooth spinach gravy with spices.",
+        ingredients: ["spinach", "paneer", "cream", "onions", "tomatoes", "spices"],
         time: "30 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400"
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 18,
-        title: "Margherita Pizza",
+        title: "Kadhi Pakora",
         category: "lunch",
-        description: "Classic pizza with fresh mozzarella, tomatoes, and basil.",
-        ingredients: ["pizza dough", "mozzarella", "tomatoes", "basil", "olive oil"],
-        time: "20 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400"
+        description: "Yogurt-based curry with gram flour fritters.",
+        ingredients: ["yogurt", "gram flour", "onions", "spices", "curry leaves", "oil"],
+        time: "40 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 19,
-        title: "Greek Salad",
+        title: "Aloo Gobi",
         category: "lunch",
-        description: "Fresh salad with cucumbers, tomatoes, olives, and feta cheese.",
-        ingredients: ["cucumber", "tomatoes", "olives", "feta cheese", "olive oil", "oregano"],
-        time: "10 mins",
+        description: "Dry curry with potatoes and cauliflower in aromatic spices.",
+        ingredients: ["potatoes", "cauliflower", "onions", "tomatoes", "turmeric", "cumin"],
+        time: "30 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=400"
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 20,
-        title: "Mushroom Risotto",
+        title: "Vegetable Biryani",
         category: "lunch",
-        description: "Creamy Italian rice dish with mushrooms and parmesan.",
-        ingredients: ["arborio rice", "mushrooms", "vegetable broth", "parmesan", "white wine"],
-        time: "35 mins",
-        servings: 4,
-        image: "https://images.unsplash.com/photo-1476124369491-b79faf26ed72?w=400"
+        description: "Fragrant basmati rice with mixed vegetables and aromatic spices.",
+        ingredients: ["basmati rice", "mixed vegetables", "biryani masala", "yogurt", "saffron"],
+        time: "50 mins",
+        servings: 6,
+        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=600&h=400&fit=crop"
     },
     {
         id: 21,
-        title: "Veggie Quesadilla",
+        title: "Bhindi Masala",
         category: "lunch",
-        description: "Crispy tortilla filled with cheese and mixed vegetables.",
-        ingredients: ["tortillas", "cheese", "bell peppers", "onions", "black beans"],
-        time: "15 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1618040996337-56904b7850b9?w=400"
+        description: "Okra stir-fried with onions, tomatoes, and spices.",
+        ingredients: ["okra", "onions", "tomatoes", "dry mango powder", "spices"],
+        time: "25 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 22,
-        title: "Tomato Basil Soup",
+        title: "Baingan Bharta",
         category: "lunch",
-        description: "Rich and creamy tomato soup with fresh basil.",
-        ingredients: ["tomatoes", "basil", "cream", "garlic", "onions", "vegetable broth"],
-        time: "25 mins",
+        description: "Roasted and mashed eggplant cooked with onions and tomatoes.",
+        ingredients: ["eggplant", "onions", "tomatoes", "green chilies", "coriander", "spices"],
+        time: "35 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400"
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 23,
-        title: "Spinach Paneer Wrap",
+        title: "Malai Kofta",
         category: "lunch",
-        description: "Indian-inspired wrap with paneer cheese and spinach.",
-        ingredients: ["tortilla", "paneer", "spinach", "onions", "spices", "yogurt"],
-        time: "20 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=400"
+        description: "Fried potato and paneer balls in rich creamy gravy.",
+        ingredients: ["potatoes", "paneer", "cream", "tomatoes", "cashews", "spices"],
+        time: "45 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 24,
-        title: "Vegetable Lasagna",
+        title: "Matar Paneer",
         category: "lunch",
-        description: "Layered pasta with vegetables, cheese, and tomato sauce.",
-        ingredients: ["lasagna noodles", "ricotta", "mozzarella", "spinach", "tomato sauce"],
-        time: "60 mins",
-        servings: 8,
-        image: "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=400"
+        description: "Green peas and cottage cheese in tomato-based gravy.",
+        ingredients: ["paneer", "green peas", "tomatoes", "onions", "cream", "spices"],
+        time: "30 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
-
-    // DINNER RECIPES (14)
     {
         id: 25,
-        title: "Spaghetti Aglio e Olio",
-        category: "dinner",
-        description: "Simple Italian pasta with garlic, olive oil, and chili flakes.",
-        ingredients: ["spaghetti", "garlic", "olive oil", "chili flakes", "parsley", "parmesan"],
-        time: "20 mins",
-        servings: 4,
-        image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+        title: "Dal Makhani",
+        category: "lunch",
+        description: "Black lentils and kidney beans in buttery tomato cream sauce.",
+        ingredients: ["black urad dal", "rajma", "butter", "cream", "tomatoes", "spices"],
+        time: "60 mins",
+        servings: 6,
+        image: "https://images.unsplash.com/photo-1546833998-877b37c2e5c6?w=600&h=400&fit=crop"
     },
+
+    // DINNER RECIPES (13)
     {
         id: 26,
-        title: "Vegetable Curry",
+        title: "Paneer Tikka Masala",
         category: "dinner",
-        description: "Rich and aromatic curry with mixed vegetables and coconut milk.",
-        ingredients: ["mixed vegetables", "coconut milk", "curry paste", "onions", "garlic"],
-        time: "35 mins",
+        description: "Grilled paneer cubes in spicy tomato and cream gravy.",
+        ingredients: ["paneer", "tomatoes", "cream", "yogurt", "tikka masala", "bell peppers"],
+        time: "40 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400"
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 27,
-        title: "Eggplant Parmesan",
+        title: "Vegetable Korma",
         category: "dinner",
-        description: "Breaded eggplant slices baked with marinara and mozzarella.",
-        ingredients: ["eggplant", "marinara sauce", "mozzarella", "parmesan", "breadcrumbs"],
-        time: "45 mins",
+        description: "Mixed vegetables in rich cashew and coconut gravy.",
+        ingredients: ["mixed vegetables", "cashews", "coconut", "cream", "spices", "onions"],
+        time: "35 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1608897013039-887f21d8c804?w=400"
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 28,
-        title: "Stuffed Bell Peppers",
+        title: "Kadai Paneer",
         category: "dinner",
-        description: "Bell peppers filled with rice, beans, and melted cheese.",
-        ingredients: ["bell peppers", "rice", "black beans", "corn", "cheese", "tomatoes"],
-        time: "40 mins",
+        description: "Paneer cooked with bell peppers and onions in spicy tomato gravy.",
+        ingredients: ["paneer", "bell peppers", "onions", "tomatoes", "kadai masala"],
+        time: "30 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1606936752083-52672aac7fe0?w=400"
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 29,
-        title: "Pad Thai Noodles",
+        title: "Mushroom Masala",
         category: "dinner",
-        description: "Thai stir-fried noodles with vegetables, tofu, and peanuts.",
-        ingredients: ["rice noodles", "tofu", "bean sprouts", "peanuts", "tamarind sauce", "lime"],
+        description: "Button mushrooms in spicy onion-tomato gravy with Indian spices.",
+        ingredients: ["mushrooms", "onions", "tomatoes", "ginger-garlic", "garam masala"],
         time: "25 mins",
-        servings: 3,
-        image: "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=400"
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 30,
-        title: "Vegetable Biryani",
+        title: "Shahi Paneer",
         category: "dinner",
-        description: "Fragrant Indian rice dish with mixed vegetables and spices.",
-        ingredients: ["basmati rice", "mixed vegetables", "biryani spices", "yogurt", "onions"],
-        time: "45 mins",
-        servings: 6,
-        image: "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?w=400"
+        description: "Royal curry with paneer in rich cashew-cream gravy.",
+        ingredients: ["paneer", "cashews", "cream", "tomatoes", "cardamom", "saffron"],
+        time: "35 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 31,
-        title: "Margherita Flatbread",
+        title: "Chana Masala",
         category: "dinner",
-        description: "Thin crust flatbread with tomatoes, mozzarella, and fresh basil.",
-        ingredients: ["flatbread", "mozzarella", "tomatoes", "basil", "olive oil", "garlic"],
-        time: "15 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400"
+        description: "Chickpeas in tangy tomato gravy with aromatic spices.",
+        ingredients: ["chickpeas", "tomatoes", "onions", "chana masala", "dry mango powder"],
+        time: "30 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 32,
-        title: "Chickpea Tikka Masala",
+        title: "Dum Aloo",
         category: "dinner",
-        description: "Creamy Indian curry with chickpeas in tomato-based sauce.",
-        ingredients: ["chickpeas", "tomatoes", "cream", "tikka masala spices", "onions", "garlic"],
-        time: "30 mins",
+        description: "Baby potatoes in rich yogurt-based Kashmiri gravy.",
+        ingredients: ["baby potatoes", "yogurt", "cashews", "fennel", "dry ginger", "spices"],
+        time: "40 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=400"
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 33,
-        title: "Zucchini Noodles Primavera",
+        title: "Paneer Do Pyaza",
         category: "dinner",
-        description: "Light and healthy zoodles with mixed vegetables and pesto.",
-        ingredients: ["zucchini", "cherry tomatoes", "pesto", "parmesan", "pine nuts"],
-        time: "15 mins",
-        servings: 2,
-        image: "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=400"
+        description: "Paneer curry with double the amount of onions and spices.",
+        ingredients: ["paneer", "onions", "tomatoes", "yogurt", "garam masala"],
+        time: "30 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 34,
-        title: "Black Bean Tacos",
+        title: "Mix Vegetable Curry",
         category: "dinner",
-        description: "Flavorful tacos with seasoned black beans and fresh toppings.",
-        ingredients: ["black beans", "taco shells", "cheese", "lettuce", "salsa", "sour cream"],
-        time: "20 mins",
+        description: "Assorted vegetables in spicy onion-tomato gravy.",
+        ingredients: ["mixed vegetables", "onions", "tomatoes", "ginger-garlic", "spices"],
+        time: "30 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1565299585323-38d6b0865b47?w=400"
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 35,
-        title: "Vegetable Enchiladas",
+        title: "Navratan Korma",
         category: "dinner",
-        description: "Tortillas filled with vegetables, beans, and covered in enchilada sauce.",
-        ingredients: ["tortillas", "black beans", "corn", "cheese", "enchilada sauce", "peppers"],
-        time: "35 mins",
-        servings: 6,
-        image: "https://images.unsplash.com/photo-1617343267417-49f2b6b4d551?w=400"
+        description: "Nine-gem curry with vegetables, fruits, and nuts in creamy sauce.",
+        ingredients: ["mixed vegetables", "fruits", "nuts", "cream", "paneer", "spices"],
+        time: "40 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 36,
-        title: "Penne Arrabbiata",
+        title: "Paneer Bhurji",
         category: "dinner",
-        description: "Spicy Italian pasta with tomato sauce and red chili peppers.",
-        ingredients: ["penne pasta", "tomatoes", "garlic", "chili peppers", "olive oil", "basil"],
-        time: "25 mins",
+        description: "Scrambled paneer with onions, tomatoes, and spices.",
+        ingredients: ["paneer", "onions", "tomatoes", "green chilies", "turmeric", "cumin"],
+        time: "20 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=400"
+        image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?w=600&h=400&fit=crop"
     },
     {
         id: 37,
-        title: "Vegetable Paella",
+        title: "Aloo Matar",
         category: "dinner",
-        description: "Spanish rice dish with saffron, vegetables, and peas.",
-        ingredients: ["rice", "saffron", "bell peppers", "peas", "tomatoes", "vegetable broth"],
-        time: "40 mins",
-        servings: 6,
-        image: "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=400"
+        description: "Potatoes and green peas in tomato-based curry.",
+        ingredients: ["potatoes", "green peas", "tomatoes", "onions", "ginger-garlic", "spices"],
+        time: "25 mins",
+        servings: 4,
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
     {
         id: 38,
-        title: "Cauliflower Steaks",
+        title: "Vegetable Jalfrezi",
         category: "dinner",
-        description: "Roasted cauliflower steaks with herbs and lemon.",
-        ingredients: ["cauliflower", "olive oil", "herbs", "lemon", "garlic", "parmesan"],
-        time: "30 mins",
+        description: "Stir-fried vegetables in tangy tomato-based sauce.",
+        ingredients: ["mixed vegetables", "bell peppers", "onions", "tomatoes", "vinegar", "spices"],
+        time: "25 mins",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1568162603664-fcd658421851?w=400"
+        image: "https://images.unsplash.com/photo-1585937421612-70a008356fbe?w=600&h=400&fit=crop"
     },
 
     // DESSERT RECIPES (12)
     {
         id: 39,
-        title: "Chocolate Chip Cookies",
+        title: "Gulab Jamun",
         category: "dessert",
-        description: "Soft and chewy cookies loaded with chocolate chips.",
-        ingredients: ["flour", "butter", "sugar", "chocolate chips", "eggs", "vanilla"],
-        time: "25 mins",
-        servings: 24,
-        image: "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=400"
+        description: "Soft milk-solid balls soaked in rose-flavored sugar syrup.",
+        ingredients: ["milk powder", "flour", "ghee", "sugar", "rose water", "cardamom"],
+        time: "45 mins",
+        servings: 12,
+        image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=400&fit=crop"
     },
     {
         id: 40,
-        title: "Strawberry Cheesecake",
+        title: "Rasgulla",
         category: "dessert",
-        description: "Rich and creamy cheesecake with fresh strawberries.",
-        ingredients: ["cream cheese", "graham crackers", "sugar", "strawberries", "eggs"],
-        time: "60 mins + chill",
-        servings: 8,
-        image: "https://images.unsplash.com/photo-1524351199678-941a58a3df50?w=400"
+        description: "Spongy cottage cheese balls in light sugar syrup.",
+        ingredients: ["chenna", "sugar", "cardamom", "rose water"],
+        time: "40 mins",
+        servings: 10,
+        image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=400&fit=crop"
     },
     {
         id: 41,
-        title: "Tiramisu",
+        title: "Kheer",
         category: "dessert",
-        description: "Classic Italian dessert with coffee-soaked ladyfingers and mascarpone.",
-        ingredients: ["ladyfingers", "mascarpone", "coffee", "cocoa powder", "eggs", "sugar"],
-        time: "30 mins + chill",
-        servings: 8,
-        image: "https://images.unsplash.com/photo-1571877227200-a0d98ea607e9?w=400"
+        description: "Creamy rice pudding with cardamom, saffron, and dry fruits.",
+        ingredients: ["rice", "milk", "sugar", "cardamom", "saffron", "nuts"],
+        time: "35 mins",
+        servings: 6,
+        image: "https://images.unsplash.com/photo-1562159278-1253a58da141?w=600&h=400&fit=crop"
     },
     {
         id: 42,
-        title: "Chocolate Brownies",
+        title: "Jalebi",
         category: "dessert",
-        description: "Fudgy and rich chocolate brownies with a crackly top.",
-        ingredients: ["chocolate", "butter", "sugar", "eggs", "flour", "cocoa powder"],
-        time: "35 mins",
-        servings: 16,
-        image: "https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=400"
+        description: "Crispy fried spirals soaked in saffron sugar syrup.",
+        ingredients: ["flour", "yogurt", "sugar", "saffron", "cardamom", "ghee"],
+        time: "50 mins",
+        servings: 15,
+        image: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=600&h=400&fit=crop"
     },
     {
         id: 43,
-        title: "Apple Pie",
+        title: "Rasmalai",
         category: "dessert",
-        description: "Classic apple pie with cinnamon and flaky crust.",
-        ingredients: ["apples", "pie crust", "sugar", "cinnamon", "butter", "lemon juice"],
-        time: "70 mins",
+        description: "Soft paneer discs soaked in sweetened thickened milk.",
+        ingredients: ["chenna", "milk", "sugar", "cardamom", "saffron", "pistachios"],
+        time: "60 mins",
         servings: 8,
-        image: "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=400"
+        image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=400&fit=crop"
     },
     {
         id: 44,
-        title: "Lemon Bars",
+        title: "Gajar Halwa",
         category: "dessert",
-        description: "Tangy lemon custard on a buttery shortbread crust.",
-        ingredients: ["lemons", "butter", "sugar", "eggs", "flour", "powdered sugar"],
-        time: "45 mins",
-        servings: 12,
-        image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400"
+        description: "Sweet carrot pudding with milk, ghee, and dry fruits.",
+        ingredients: ["carrots", "milk", "sugar", "ghee", "cardamom", "cashews"],
+        time: "50 mins",
+        servings: 6,
+        image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=400&fit=crop"
     },
     {
         id: 45,
-        title: "Chocolate Mousse",
+        title: "Ladoo",
         category: "dessert",
-        description: "Light and airy chocolate mousse with whipped cream.",
-        ingredients: ["dark chocolate", "cream", "eggs", "sugar", "vanilla"],
-        time: "20 mins + chill",
-        servings: 6,
-        image: "https://images.unsplash.com/photo-1541599468348-e96984315921?w=400"
+        description: "Sweet round balls made with gram flour, ghee, and sugar.",
+        ingredients: ["gram flour", "ghee", "sugar", "cardamom", "cashews", "raisins"],
+        time: "30 mins",
+        servings: 20,
+        image: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=600&h=400&fit=crop"
     },
     {
         id: 46,
-        title: "Vanilla Cupcakes",
+        title: "Barfi",
         category: "dessert",
-        description: "Fluffy vanilla cupcakes with buttercream frosting.",
-        ingredients: ["flour", "butter", "sugar", "eggs", "vanilla", "buttercream"],
-        time: "35 mins",
-        servings: 12,
-        image: "https://images.unsplash.com/photo-1587668178277-295251f900ce?w=400"
+        description: "Milk-based sweet fudge with cardamom and pistachios.",
+        ingredients: ["milk", "sugar", "ghee", "cardamom", "pistachios", "cashews"],
+        time: "40 mins",
+        servings: 16,
+        image: "https://images.unsplash.com/photo-1610192244261-3f33de3f55e4?w=600&h=400&fit=crop"
     },
     {
         id: 47,
-        title: "Panna Cotta",
+        title: "Shrikhand",
         category: "dessert",
-        description: "Italian cream dessert with berry compote.",
-        ingredients: ["cream", "sugar", "vanilla", "gelatin", "berries"],
-        time: "15 mins + chill",
+        description: "Sweetened strained yogurt flavored with saffron and cardamom.",
+        ingredients: ["yogurt", "sugar", "saffron", "cardamom", "pistachios"],
+        time: "4 hours + chill",
         servings: 4,
-        image: "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=400"
+        image: "https://images.unsplash.com/photo-1562159278-1253a58da141?w=600&h=400&fit=crop"
     },
     {
         id: 48,
-        title: "Carrot Cake",
+        title: "Kulfi",
         category: "dessert",
-        description: "Moist carrot cake with cream cheese frosting and walnuts.",
-        ingredients: ["carrots", "flour", "sugar", "eggs", "cream cheese", "walnuts"],
-        time: "50 mins",
-        servings: 12,
-        image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=400"
+        description: "Traditional Indian ice cream with cardamom and pistachios.",
+        ingredients: ["milk", "sugar", "cardamom", "saffron", "pistachios", "cream"],
+        time: "6 hours + freeze",
+        servings: 6,
+        image: "https://images.unsplash.com/photo-1562159278-1253a58da141?w=600&h=400&fit=crop"
     },
     {
         id: 49,
-        title: "Chocolate Lava Cake",
+        title: "Sandesh",
         category: "dessert",
-        description: "Individual chocolate cakes with molten centers.",
-        ingredients: ["chocolate", "butter", "eggs", "sugar", "flour"],
-        time: "20 mins",
-        servings: 4,
-        image: "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=400"
+        description: "Bengali sweet made from fresh cottage cheese and sugar.",
+        ingredients: ["chenna", "sugar", "cardamom", "rose water", "pistachios"],
+        time: "30 mins",
+        servings: 12,
+        image: "https://images.unsplash.com/photo-1621303837174-89787a7d4729?w=600&h=400&fit=crop"
     },
     {
         id: 50,
-        title: "Fruit Tart",
+        title: "Payasam",
         category: "dessert",
-        description: "Buttery tart shell filled with pastry cream and fresh fruits.",
-        ingredients: ["tart shell", "pastry cream", "strawberries", "kiwi", "blueberries"],
-        time: "40 mins + chill",
-        servings: 8,
-        image: "https://images.unsplash.com/photo-1519915212116-7cfef71f1d3e?w=400"
+        description: "South Indian vermicelli pudding with coconut milk and jaggery.",
+        ingredients: ["vermicelli", "coconut milk", "jaggery", "cardamom", "cashews"],
+        time: "30 mins",
+        servings: 6,
+        image: "https://images.unsplash.com/photo-1562159278-1253a58da141?w=600&h=400&fit=crop"
     }
 ];
 
@@ -517,7 +517,7 @@ let currentSearchTerm = '';
 function createRecipeCard(recipe) {
     return `
         <div class="recipe-card" data-id="${recipe.id}">
-            <img src="${recipe.image}" alt="${recipe.title}" class="recipe-image">
+            <img src="${recipe.image}" alt="${recipe.title}" class="recipe-image" onerror="this.src='https://via.placeholder.com/400x200/1e3a8a/ffffff?text=${encodeURIComponent(recipe.title)}'">
             <div class="recipe-content">
                 <span class="recipe-category">${recipe.category}</span>
                 <h3 class="recipe-title">${recipe.title}</h3>
