@@ -588,11 +588,28 @@ document.querySelectorAll('.filter-btn').forEach(button => {
     });
 });
 
-// Set up search input
-document.getElementById('searchInput').addEventListener('input', function(e) {
-    currentSearchTerm = e.target.value;
+// Set up hero search bar (top of page) - links to same filtering logic
+const heroSearchInput = document.getElementById('heroSearchInput');
+const heroSearchBtn = document.getElementById('heroSearchBtn');
+
+function runHeroSearch() {
+    currentSearchTerm = heroSearchInput.value;
     filterRecipes();
-});
+    document.getElementById('recipes').scrollIntoView({ behavior: 'smooth' });
+}
+
+if (heroSearchBtn) {
+    heroSearchBtn.addEventListener('click', runHeroSearch);
+}
+
+if (heroSearchInput) {
+    heroSearchInput.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            runHeroSearch();
+        }
+    });
+}
 
 // Initial display of all recipes
 displayRecipes(recipes);
